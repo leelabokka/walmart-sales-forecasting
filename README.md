@@ -94,3 +94,37 @@ The dataset includes:
 ---
 
 ## 📁 Project Structure
+
+
+walmart-sales-forecasting/
+│
+├── main.py
+├── Walmart.csv
+├── requirements.txt
+└── README.md
+
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/leelabokka/walmart-sales-forecasting.git
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run the project:
+
+python main.py
+🔮 Future Improvements
+
+Implement additional ML algorithms
+
+Create a web dashboard for predictions
+
+Add real-time sales forecasting
+
+Deploy the model as a web application
