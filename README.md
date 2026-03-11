@@ -1,172 +1,96 @@
-Walmart Sales Forecasting Using Machine Learning
+# 🛒 Walmart Sales Forecasting Using Machine Learning
 
-Project Description
+Real-time prediction of Walmart weekly sales using **Machine Learning algorithms** to analyze historical data and forecast future trends.
 
+---
 
+## 📌 Project Description
 
-Retail businesses rely heavily on accurate sales predictions to manage inventory and optimize business operations. This project focuses on forecasting weekly store sales for Walmart using machine learning techniques.
+Retail businesses rely heavily on accurate sales predictions to manage inventory and optimize operations. This project forecasts weekly store sales for Walmart using machine learning techniques.
 
+It analyzes historical sales data along with various economic and environmental factors such as:
 
+- Temperature 🌡️  
+- Fuel prices ⛽  
+- CPI (Consumer Price Index) 📈  
+- Unemployment rate 📊  
+- Holiday indicators 🎉  
 
-The system analyzes historical sales data along with various economic and environmental factors such as temperature, fuel prices, consumer price index (CPI), unemployment rate, and holiday indicators. By identifying patterns in the data, the machine learning model predicts future sales trends.
+By identifying patterns, the model predicts future sales trends, helping businesses make better decisions for **inventory management** and **demand planning**.
 
+---
 
+## 🚀 Features
 
-This forecasting system helps retailers make informed decisions about inventory management, demand planning, and supply chain operations, ultimately improving profitability and reducing losses caused by inaccurate demand estimation.
+### Sales Forecasting
+- Predicts weekly Walmart store sales  
+- Uses historical sales data for training  
+- Helps in inventory and demand management  
 
+### Data Processing
+- Data cleaning and preprocessing 🧹  
+- Date conversion and feature extraction 📅  
+- Handling economic indicators  
 
+### Machine Learning Model
+- **Random Forest Regression** algorithm 🌲  
+- Handles large datasets efficiently  
+- Reduces overfitting  
 
-Project Overview
+### Visualization
+- Graph showing **Actual vs Predicted Sales** 📊  
+- Helps understand model performance  
 
+---
 
+## 📂 Dataset
 
-This project predicts weekly store sales of Walmart using machine learning techniques. The model analyzes historical sales data and identifies patterns to forecast future sales.
+The dataset includes:
 
+| Attribute | Description |
+|-----------|-------------|
+| Store ID | Unique identifier for the store |
+| Date | Week of sales data |
+| Weekly Sales | Target variable |
+| Holiday Flag | Whether the week includes a holiday |
+| Temperature | Average weekly temperature |
+| Fuel Price | Fuel cost per gallon |
+| CPI | Consumer Price Index |
+| Unemployment Rate | Unemployment percentage |
 
+---
 
-Objective
+## 🛠 Technologies Used
 
+- Python 🐍  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Scikit-learn  
+- Machine Learning (Random Forest Regression)  
 
+---
 
-The objective of this project is to help retail businesses improve inventory management and increase profits by predicting product demand and store sales.
+## 🧩 Machine Learning Model
 
+**Random Forest Regression** was used to train the model and predict weekly sales. Advantages:
 
+- Works well with structured data  
+- Handles nonlinear relationships  
+- Provides high prediction accuracy  
 
-Dataset
+---
 
+## 📈 Model Evaluation
 
+| Metric | Value |
+|--------|-------|
+| Mean Squared Error (MSE) | 13,020,256,696.91 |
+| Root Mean Squared Error (RMSE) | 114,106.33 |
+| R² Score | 0.96 |
 
-The dataset contains historical Walmart sales data including:
+✅ **R² Score of 0.96** indicates strong predictive performance.
 
+---
 
-
-Store ID
-
-
-
-Date
-
-
-
-Weekly Sales
-
-
-
-Holiday Flag
-
-
-
-Temperature
-
-
-
-Fuel Price
-
-
-
-CPI (Consumer Price Index)
-
-
-
-Unemployment Rate
-
-
-
-These features help the model understand the factors influencing sales trends.
-
-
-
-Technologies Used
-
-
-
-Python
-
-
-
-Pandas
-
-
-
-NumPy
-
-
-
-Matplotlib
-
-
-
-Scikit-learn
-
-
-
-Machine Learning Model
-
-
-
-The project uses the \*\*Random Forest Regression algorithm to train the model and predict weekly store sales based on historical patterns in the dataset.
-
-
-
-Model Evaluation
-
-
-
-The model performance was evaluated using the following metrics:
-
-
-
-Mean Squared Error (MSE)
-
-
-
-Root Mean Squared Error (RMSE)
-
-
-
-R² Score
-
-
-
-The model achieved an R² Score ≈ 0.96, which indicates strong predictive performance and a high level of accuracy in forecasting sales.
-
-
-
-Features
-
-
-
-Data preprocessing and cleaning
-
-
-
-Feature engineering (Year, Month, Week extraction from date)
-
-
-
-Model training and prediction
-
-
-
-Performance evaluation using regression metrics
-
-
-
-Data visualization for actual vs predicted sales comparison
-
-
-
-Future Improvements
-
-
-
-Implement additional machine learning models for comparison
-
-
-
-Develop a web dashboard for interactive sales prediction
-
-
-
-Integrate real-time data for continuous forecasting
-
+## 📁 Project Structure
